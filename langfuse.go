@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/delivey/langfuse-go/internal/pkg/api"
+	"github.com/delivey/langfuse-go/internal/pkg/observer"
+	"github.com/delivey/langfuse-go/model"
 	"github.com/google/uuid"
-	"github.com/henomis/langfuse-go/internal/pkg/api"
-	"github.com/henomis/langfuse-go/internal/pkg/observer"
-	"github.com/henomis/langfuse-go/model"
 )
 
 const (
